@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/59/Monet_-_Impression%2C_Sunrise.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 40px;
+    z-index: 2;
+    display: flex;
+}
+
+#menutoggle {
+    width: 40px;
+    height: 32px;
+    position: relative;
+    z-index: 2;
+    opacity: 0;
+}
+
+#menutoggle:checked~.menu-burger {
+    display: none;
+    position: fixed;
+}
+
+.burger {
+    z-index: 1;
+    position: fixed;
+    top: 55px;
+    left: 44px;
+}
+
+.menu-burger {
+    position: fixed;
+    top: 62px;
+    left: 44px;
+}
+
+nav .burger span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    background-color: #35467D;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #35467D
+}
+
+a:visited {
+    color: #35467D
+}
+
+ul
+
+/* menu-burger */
+    {
+    background: rgba(255, 255, 255, 0.85);
+    width: 260px;
+    height: 350px;
+    padding-left: 35px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    margin-top: -20px;
+    margin-left: -15px;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #35467D;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+    margin-top: 15px;
+}
+
+section {
+    margin-top: 150px;
+}
+
+h1
+
+/* Impresionismo */
+    {
+    color: #F5F5F5;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 100px;
+    line-height: 157px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+p
+
+/* Movimiento artistico en la pintura */
+    {
+    color: #F5F5F5;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 30px;
+    line-height: 54px;
+    letter-spacing: 0.20em;
+    text-transform: uppercase;
+    margin-top: 0;
+}

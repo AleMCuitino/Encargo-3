@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 40px;
+    z-index: 2;
+    display: flex;
+}
+
+#menutoggle {
+    width: 40px;
+    height: 32px;
+    position: relative;
+    z-index: 2;
+    opacity: 0;
+}
+
+#menutoggle:checked~.menu-burger {
+    display: none;
+    position: fixed;
+}
+
+.burger {
+    z-index: 1;
+    position: fixed;
+    top: 55px;
+    left: 44px;
+}
+
+.menu-burger {
+    position: fixed;
+    top: 62px;
+    left: 44px;
+}
+
+nav .burger span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    background-color: #35467D;
+    position: relative;
+}
+
+ul
+
+/* menu-burger */
+    {
+    background: rgba(255, 255, 255, 0.85);
+    width: 260px;
+    height: 350px;
+    padding-left: 35px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    margin-top: -20px;
+    margin-left: -15px;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #35467D;
+}
+
+li
+
+/* estilo-menu */
+    {
+    list-style: none;
+    text-align: left;
+    margin-top: 15px;
+}
+
+a
+
+/* botones-menu */
+    {
+    text-decoration: none;
+    color: #35467D
+}
+
+a:visited {
+    color: #35467D
+}
+
+h2 {
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 44px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #35467D;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.contenedor-artistas {
+    width: 100vw;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Artista {
+    border-radius: 20px;
+    width: 200px;
+    height: 300px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 200;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.Artista img {
+    width: 200px;
+    height: auto;
+    border-radius: inherit;
+}
+
+.TextClaudeMonet {
+    position: relative;
+    text-align: center;
+    top: -80px;
+    line-height: 91px;
+    color: #ffffff;
+}
+
+.button
+
+/* flecha-volver*/
+    {
+    padding: 20px;
+    padding-left: 40px;
+    color: #35467D;
+}
